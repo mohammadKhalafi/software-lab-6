@@ -65,3 +65,40 @@ docker-compose up --build
 
 
 ![containers.png](images/postman-5.png)
+
+
+
+# تعامل با داکر 
+
+##  1-نمایش `image` ها و `container` ها 
+
+ابتدا تمامی `image` ها را نمایش می دهیم:
+
+![image-0.png](images/image-0.png)
+
+که `image` مربوط به `software-lab-6-web` متعلق به پروژه ما می باشد.
+
+
+سپس تمامی `container` ها را نمایش می دهیم:
+
+![image-00.png](images/image-00.png)
+
+که `container `های قابل مشاهده توسط پروژه ما ایجاد شده اند.
+
+(مجددا  `software-lab-6-web` حاوی `container` متعلق به پروژه ما بوده است.)
+
+
+##  اجرای یک دستور دلخواه در کانتینر وب‌سرور
+
+ابتدا با دستور زیر وارد شل مخصوص کانتینر وب سرور می شویم:
+
+```bash
+docker exec -it software-lab-6-web-1 bash
+
+```
+
+سپس  برای نمایش پکیج های نصب شده در این کانتینر داریم:
+
+![image-000.png](images/image-000.png)
+
+که این دستور، لیست تمامی پکیج های نصب شده را باز می گرداند.
