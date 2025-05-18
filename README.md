@@ -37,3 +37,31 @@ docker-compose up --build
 
 
 ![containers.png](images/postman-1.png)
+
+همانطور که مشاهده می شود، `status=200`  نشان می دهد که کاربر ما به درستی ساخته شده است.
+
+
+##    ساخت یادداشت برای کاربر 
+
+به این منظور، ابتدا `login` می کنیم:
+
+![containers.png](images/postman-2.png)
+
+سپس یادداشت خواسته شده را ایجاد می کنیم:
+
+![containers.png](images/postman-3.png)
+
+و سپس یادداشت دوم :
+
+![containers.png](images/postman-4.png)
+
+## دریافت یادداشت های کاربر
+
+برای دریافت یادداشت های کاربر، به کمک متد `GET` به آدرس URL  زیر می رویم:
+
+`http://localhost:8000/notes/`
+
+سپس مطابق شکل مشاهده می شود که کاربر دو یادداشت دارد:
+
+
+![containers.png](images/postman-5.png)
