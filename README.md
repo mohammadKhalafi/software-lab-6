@@ -24,3 +24,14 @@ docker-compose up --build
 در تب `containers` در `Docker Desktop` داریم:
 
 ![containers.png](images/containers.png)
+
+
+
+# ارسال درخواست به وب‌سرور
+
+در این بخش هدف ما تعامل با وب‌سرور اجرا شده در `Docker` است تا مراحل زیر را از طریق ارسال درخواست‌های `HTTP` به کمک نرم افزار `postman` انجام دهیم:
+
+## ساخت کاربر 
+
+با ارسال `http request `  در نرم افزار `postman` و تنظیم متد آن روی `post`، و ارسال url مخصوص به ساخت کاربر/`(http://localhost:8000/users/create)`، به تب `body`  و سپس گزینه `x-www-form-urlencoded`  برای ارسال داده خود از نوع `Json` دسترسی پیدا کردیم و سپس اسکریپت خود برای ایجاد کاربر جدید با نام کاربری `user1` و پسوورد `1234` را وارد کردیم:
+
