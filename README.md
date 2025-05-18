@@ -36,7 +36,7 @@ docker-compose up --build
 با ارسال `http request `  در نرم افزار `postman` و تنظیم متد آن روی `post`، و ارسال url مخصوص به ساخت کاربر`(http://localhost:8000/users/create)`، به تب `body`  و سپس تب `x-www-form-urlencoded`  می رویم و  `key` و `value` خود برای ایجاد کاربر جدید با نام کاربری `user1` و پسوورد `1234` را وارد کردیم:
 
 
-![containers.png](images/postman-1.png)
+![postman-1.png](images/postman-1.png)
 
 همانطور که مشاهده می شود، `status=200`  نشان می دهد که کاربر ما به درستی ساخته شده است.
 
@@ -45,15 +45,15 @@ docker-compose up --build
 
 به این منظور، ابتدا `login` می کنیم:
 
-![containers.png](images/postman-2.png)
+![postman-2.png](images/postman-2.png)
 
 سپس یادداشت خواسته شده را ایجاد می کنیم:
 
-![containers.png](images/postman-3.png)
+![postman-3.png](images/postman-3.png)
 
 و سپس یادداشت دوم :
 
-![containers.png](images/postman-4.png)
+![postman-4.png](images/postman-4.png)
 
 ## دریافت یادداشت های کاربر
 
