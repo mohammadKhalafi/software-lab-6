@@ -33,5 +33,7 @@ docker-compose up --build
 
 ## ساخت کاربر 
 
-با ارسال `http request `  در نرم افزار `postman` و تنظیم متد آن روی `post`، و ارسال url مخصوص به ساخت کاربر/`(http://localhost:8000/users/create)`، به تب `body`  و سپس گزینه `x-www-form-urlencoded`  برای ارسال داده خود از نوع `Json` دسترسی پیدا کردیم و سپس اسکریپت خود برای ایجاد کاربر جدید با نام کاربری `user1` و پسوورد `1234` را وارد کردیم:
+با ارسال `http request `  در نرم افزار `postman` و تنظیم متد آن روی `post`، و ارسال url مخصوص به ساخت کاربر`(http://localhost:8000/users/create)`، به تب `body`  و سپس تب `x-www-form-urlencoded`  می رویم و  `key` و `value` خود برای ایجاد کاربر جدید با نام کاربری `user1` و پسوورد `1234` را وارد کردیم:
 
+
+![containers.png](images/postman-1.png)
